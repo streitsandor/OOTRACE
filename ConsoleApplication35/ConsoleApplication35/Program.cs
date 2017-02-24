@@ -10,8 +10,11 @@ namespace ConsoleApplication35
     {
         static void Main(string[] args)
         {
+            D d = new D();
 
+            d.V2();
 
+            Console.ReadKey();
         }
     }
 }

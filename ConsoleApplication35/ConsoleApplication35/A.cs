@@ -13,7 +13,7 @@ namespace ConsoleApplication35
             V1();
         }
 
-        protected void V1()
+        protected virtual void V1()
         {
             Console.WriteLine("A::V1");
             S3();

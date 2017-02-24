@@ -15,13 +15,13 @@ namespace ConsoleApplication35
 
         public void S8()
         {
-            Console.WriteLine("D::S7");
+            Console.WriteLine("D::S8");
             V2();
         }
 
-        protected void V2()
+        public override void V2()
         {
-            Console.WriteLine("D::S7");
+            Console.WriteLine("D::V2");
             S7();
         }
     }
